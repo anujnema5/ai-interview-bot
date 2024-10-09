@@ -4,7 +4,7 @@ import os
 # Modify your Azure function
 def azure_text_to_speech(text):
     # Set up Azure Speech configuration
-    subscription_key = "dc3ee357cd1f47f19560794237b05430"  # Replace with your subscription key
+    subscription_key = ""  # Replace with your subscription key
     service_region = "westus"      # Replace with your service region
     speech_config = speechsdk.SpeechConfig(subscription=subscription_key, region=service_region)
 
