@@ -1,0 +1,1 @@
+export { default as ThankYouDialog } from './thank-you-dialog'

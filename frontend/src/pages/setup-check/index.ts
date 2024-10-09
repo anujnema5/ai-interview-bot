@@ -1,0 +1,1 @@
+export { default as SetupCheckPage } from './setup-check-page'

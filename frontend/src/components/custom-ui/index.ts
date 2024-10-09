@@ -1,0 +1,7 @@
+export { default as CustomAvatar } from './custom-avatar'
+export { default as CheckMark } from './check-mark'
+export { default as StepProgress } from './step-progress'
+export { default as Star } from './star'
+export { default as AlertBack } from './back-alert'
+export { default as AudioBadge } from './audio-badge'
+export {default as Alert} from './alert'

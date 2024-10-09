@@ -1,0 +1,1 @@
+export { default as InformationPage } from './candidate-details-page'

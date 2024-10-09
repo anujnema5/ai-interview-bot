@@ -1,0 +1,39 @@
+{
+    "routes": [
+      {
+        "route": "/invitation/*",
+        "serve": "/index.html",
+        "statusCode": 200
+      },
+      {
+        "route": "/interview/*",
+        "serve": "/index.html",
+        "statusCode": 200
+      },
+      {
+        "route": "/thank-you/*",
+        "serve": "/index.html",
+        "statusCode": 200
+      },
+      {
+        "route": "/candidate-details/*",
+        "serve": "/index.html",
+        "statusCode": 200
+      },
+      {
+        "route": "/interview-setup-check/*",
+        "serve": "/index.html",
+        "statusCode": 200
+      },
+      {
+        "route": "/*",
+        "serve": "/index.html",
+        "statusCode": 200
+      }
+    ],
+    "navigationFallback": {
+      "rewrite": "/index.html",
+      "exclude": ["/favicon.ico", "/images/*"]
+    }
+  }
+  

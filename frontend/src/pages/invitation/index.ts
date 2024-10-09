@@ -1,0 +1,1 @@
+export { default as InvitationPage } from './invitation-page'
